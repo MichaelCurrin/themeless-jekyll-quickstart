@@ -1,1 +1,3 @@
 theme: minima
+# Add compatibility for Github Pages so assets can be accessed.
+baseurl: "/static-pages-demo"
