@@ -3,5 +3,3 @@ title: Static Pages Demo
 # Add compatibility for Github Pages so assets can be accessed.
 baseurl: "/static-pages-demo"
 url: ""
-
-theme: minima
