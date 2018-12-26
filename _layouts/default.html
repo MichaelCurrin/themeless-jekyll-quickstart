@@ -10,6 +10,11 @@
 
     <!-- SEO -->
     {% seo %}
+
+    <!-- Analytics tracking for production -->
+    {% if jekyll.environment == "production" %}
+      <script src="my-analytics-script.js"></script>
+    {% endif %}
   </head>
   <body>
     <!-- Navigation -->

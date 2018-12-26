@@ -45,6 +45,17 @@ http://localhost:4000/
 The `baseurl` value is set in the config to make it easy to [run on Github Pages](#run-on-github-pages). But this should be be overridden when running locally as shown above, in order prevent the site from being served on http://localhost:4000/static-pages-demo and giving a 404 on the http://localhost:4000/ path.
 
 
+When building site content to deploy to production, replace the default `'development'` value with `production` using the following.
+
+```bash
+JEKYLL_ENV=production bundle exec jekyll build
+```
+
+This will affect any checks such as `if jekyll.environment == "production"`
+
+Then copy the contents of `_site` to your server.
+
+
 ## Plugins
 
 The following plugins were recommended as part [deploy step](https://jekyllrb.com/docs/step-by-step/10-deployment/) of the Jekyll tutorial tutorial and so are used in this project.
