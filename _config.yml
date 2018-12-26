@@ -9,3 +9,21 @@ url: ""
 collections:
   authors:
     output: true
+
+# Set layouts for posts and collections and the default layout for everything else. This
+# means the layout can be removed from frontmatter of the post and collection pages.
+defaults:
+  - scope:
+      path: ""
+      type: "authors"
+    values:
+      layout: "author"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
