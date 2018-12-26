@@ -3,3 +3,9 @@ title: Static Pages Demo
 # Add compatibility for Github Pages so assets can be accessed.
 baseurl: "/static-pages-demo"
 url: ""
+
+# Override the default with true so each author gets their own page rather than just being
+# listed as items on the Staff page.
+collections:
+  authors:
+    output: true
