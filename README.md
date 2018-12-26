@@ -58,7 +58,7 @@ Then copy the contents of `_site` to your server.
 
 ## Plugins
 
-The following plugins were recommended as part [deploy step](https://jekyllrb.com/docs/step-by-step/10-deployment/) of the Jekyll tutorial tutorial and so are used in this project.
+The following plugins were recommended as part of the [deploy step](https://jekyllrb.com/docs/step-by-step/10-deployment/) of the Jekyll tutorial tutorial and so are used in this project.
 
 - **jekyll-sitemap** - Creates a sitemap file to help search engines index content.
 - **jekyll-feed** - Creates an RSS feed for your posts
@@ -78,7 +78,7 @@ http://localhost:4000/feed.xml
 If not overriding the configured `baseurl`, the paths of all pages (including the feed and sitemap) will be off of the subpath. The links inside the feed and sitemap files will reflect that too.
 
 
-## Docs
+## Jekyll Docs
 
 See this [Jekyll cheatsheet](https://learn.cloudcannon.com/jekyll-cheat-sheet/).
 
