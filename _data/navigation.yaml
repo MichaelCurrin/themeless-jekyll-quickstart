@@ -1,6 +1,6 @@
 - name: Home
-  link: /static-pages-demo/
+  link: /
 - name: About
-  link: /static-pages-demo/about.html
+  link: /about.html
 - name: Blog
-  link: /static-pages-demo/blog.html
+  link: /blog.html
