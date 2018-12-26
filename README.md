@@ -38,7 +38,7 @@ There are no other plugins or themes to install.
 ## Run
 
 
-Build to the `_site` directory and start the webserver with this command.
+Build to the `_site` directory and start the web server with this command.
 
 ```bash
 $ jekyll serve --baseurl ''
