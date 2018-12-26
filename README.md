@@ -54,12 +54,15 @@ The `baseurl` value is set in the config to make it easy to [run on Github Pages
 
 ## Docs
 
-Read more in the Jekyll documentation.
+See this [Jekyll cheatsheet](https://learn.cloudcannon.com/jekyll-cheat-sheet/).
+
+Read more in the [Jekyll documentation](https://jekyllrb.com).
 
 - [Data files](https://jekyllrb.com/docs/datafiles/)
 - [Navigation](https://jekyllrb.com/tutorials/navigation/)
 - [Includes](https://jekyllrb.com/docs/includes/)
 - [Layouts](https://jekyllrb.com/docs/layouts/)
 - [Convert an HTML site to Jekyll](https://jekyllrb.com/tutorials/convert-site-to-jekyll/)
+- [Liquid Filters](https://jekyllrb.com/docs/liquid/filters/)
 
 See also the content on the sidebar around pages, posts, front matter and more.
