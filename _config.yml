@@ -12,6 +12,8 @@ collections:
 
 # Set layouts for posts and collections and the default layout for everything else. This
 # means the layout can be removed from frontmatter of the post and collection pages.
+# You also set your own values in defaults such as author or category.
+# https://jekyllrb.com/docs/configuration/front-matter-defaults/
 defaults:
   - scope:
       path: ""
