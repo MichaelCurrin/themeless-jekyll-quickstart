@@ -68,12 +68,11 @@ The first doesn't need any setup and generates the following:
 
 http://localhost:4000/sitemap.xml
 
-The other two plugins have been added to the [defaults](_layouts/default.html) file as `feed_meta` and `seo` tags in the head (view the source of any page to see the result).
+The other two plugins have been added to the [defaults](_layouts/default.html) file as `feed_meta` and `seo` tags in the head (view the source of any page to see the result). If using a theme like `minima`, you will find that those are already included in the theme's default layout.
 
 The RSS Feed is available here:
 
 http://localhost:4000/feed.xml
-
 
 If not overriding the configured `baseurl`, the paths of all pages (including the feed and sitemap) will be off of the subpath. The links inside the feed and sitemap files will reflect that too.
 
@@ -91,5 +90,6 @@ Read more in the [Jekyll documentation](https://jekyllrb.com).
 - [Layouts](https://jekyllrb.com/docs/layouts/)
 - [Convert an HTML site to Jekyll](https://jekyllrb.com/tutorials/convert-site-to-jekyll/)
 - [Liquid Filters](https://jekyllrb.com/docs/liquid/filters/)
+- [Link tag](https://jekyllrb.com/docs/liquid/tags/#links)
 
-See also the content on the sidebar around pages, posts, front matter and more.
+See also the content on the Jekyll site's sidebar around pages, posts, front matter and more.
