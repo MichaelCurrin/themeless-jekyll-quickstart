@@ -1,5 +1,6 @@
+# In navigation includes file we loop through using site.data.navigation as defined here.
+# Alternatively, loop through the front matter of pages.
 # https://jekyllrb.com/tutorials/navigation/
-# Loop through page front matter or site.data.navigation as defined here.
 - name: Home
   link: /
 - name: About
