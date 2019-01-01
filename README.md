@@ -5,6 +5,8 @@ This project is based on following the [Jekyll Step-by-Step tutorial](https://je
 
 The contents of this project show how to work with Liquid and parts of Jekyll. The HTML that is applied is simple and overrides the layout which is handled by a theme, so no theme is used here. Therefore no Gemfile is needed.
 
+Some useful links which helped me with learning how to use Jekyll - [gist](https://gist.github.com/MichaelCurrin/dfd14bfa74938e40f251bc00445a1627).
+
 
 ## Run on Github Pages
 
@@ -75,21 +77,3 @@ The RSS Feed is available here:
 http://localhost:4000/feed.xml
 
 If not overriding the configured `baseurl`, the paths of all pages (including the feed and sitemap) will be off of the subpath. The links inside the feed and sitemap files will reflect that too.
-
-
-## Jekyll Docs
-
-See this [Jekyll cheatsheet](https://learn.cloudcannon.com/jekyll-cheat-sheet/).
-
-Read more in the [Jekyll documentation](https://jekyllrb.com).
-
-- [Plugins](https://jekyllrb.com/docs/plugins/)
-- [Data files](https://jekyllrb.com/docs/datafiles/)
-- [Navigation](https://jekyllrb.com/tutorials/navigation/)
-- [Includes](https://jekyllrb.com/docs/includes/)
-- [Layouts](https://jekyllrb.com/docs/layouts/)
-- [Convert an HTML site to Jekyll](https://jekyllrb.com/tutorials/convert-site-to-jekyll/)
-- [Liquid Filters](https://jekyllrb.com/docs/liquid/filters/)
-- [Link tag](https://jekyllrb.com/docs/liquid/tags/#links)
-
-See also the content on the Jekyll site's sidebar around pages, posts, front matter and more.
