@@ -1,3 +1,5 @@
+# https://jekyllrb.com/tutorials/navigation/
+# Loop through page front matter or site.data.navigation as defined here.
 - name: Home
   link: /
 - name: About
