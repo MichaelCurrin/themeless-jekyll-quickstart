@@ -4,6 +4,15 @@ title: Static Pages Demo
 baseurl: "/static-pages-demo"
 url: ""
 
+
+# Plugins in the Gemfile should be repeated here for Github Pages to use them.
+# Otherwise your content which depends on the plugin will cause a build to a fail.
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
+
+
 # Override the default with true so each author gets their own page rather than just being
 # listed as items on the Staff page.
 collections:
