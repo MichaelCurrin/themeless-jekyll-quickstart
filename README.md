@@ -12,7 +12,7 @@ Some useful links which helped me with learning how to use Jekyll - [gist](https
 
 Through setting Github Pages section of the Github repo's settings, this site is available at:
 
-MichaelCurrin.github.io/static-pages-demo
+https://michaelcurrin.github.io/static-pages-demo
 
 Since this is a project page, the subpath of `static-pages-demo` is automatically set using the repo's name. In order to keep navigation and asset URLs in line with this and prevent errors, the `baseurl` in the [config](_config.yml) file is also set to that subpath.
 
