@@ -27,7 +27,7 @@ git clone https://github.com/MichaelCurrin/static-pages-demo.git
 
 ### System and project dependencies
 
-Follow this [Gemfile installation](https://gist.github.com/MichaelCurrin/1085ab164550b31272699920b5549d4b#with-a-gemfile) instructions gist.
+Follow the instructions in this [Gemfile installation gist](https://gist.github.com/MichaelCurrin/1085ab164550b31272699920b5549d4b#with-a-gemfile).
 
 
 ## Run
