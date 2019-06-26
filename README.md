@@ -1,9 +1,9 @@
 # Static Pages Demo
 > Demo of a static site built using the Jekyll tutorial
 
-This project is based on following the [Jekyll Step-by-Step tutorial](https://jekyllrb.com/docs/step-by-step/01-setup/) and is hosted on Github Pages.
+This project is based on following the [Jekyll Step-by-Step tutorial](https://jekyllrb.com/docs/step-by-step/01-setup/) and is hosted on Github Pages as a live demo.
 
-The contents of this project show how to work with Liquid and parts of Jekyll. The HTML that is applied is simple and overrides the layout which is handled by a theme, so no theme is used here. Therefore no Gemfile is needed.
+The contents of this project show how to work with [Liquid](https://shopify.github.io/liquid/) templating and [Jekyll](https://jekyllrb.com/) (Ruby gem for generating static site). The HTML that is applied is simple and overrides the layout which is handled by a theme, so no theme is used here. Therefore no Gemfile is needed.
 
 Some useful links which helped me with learning how to use Jekyll - [gist](https://gist.github.com/MichaelCurrin/dfd14bfa74938e40f251bc00445a1627).
 
@@ -22,7 +22,7 @@ Since this is a project page, the subpath of `static-pages-demo` is automaticall
 ### Clone the repo
 
 ```bash
-git clone https://github.com/MichaelCurrin/static-pages-demo.git
+$ git clone https://github.com/MichaelCurrin/static-pages-demo.git
 ```
 
 ### System and project dependencies
@@ -50,7 +50,7 @@ The `baseurl` value is set in the config to make it easy to [run on Github Pages
 When building site content to deploy to production, replace the default `'development'` value with `production` using the following.
 
 ```bash
-JEKYLL_ENV=production bundle exec jekyll build
+$ JEKYLL_ENV=production bundle exec jekyll build
 ```
 
 This will affect any checks such as `if jekyll.environment == "production"`
