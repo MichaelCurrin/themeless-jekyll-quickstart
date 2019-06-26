@@ -1,5 +1,6 @@
 # In navigation includes file we loop through using site.data.navigation as defined here.
-# Alternatively, loop through the front matter of pages.
+# Alternatively, loop through the front matter of pages and use header_pages value in config
+# file reference the filenames of nav items, in required ordered.
 # https://jekyllrb.com/tutorials/navigation/
 - name: Home
   link: /
