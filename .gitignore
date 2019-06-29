@@ -1,5 +1,7 @@
+# Build output locations.
 _site/
 .sass-cache/
-vendor/
 
+# Gem files.
+vendor/
 Gemfile.lock
