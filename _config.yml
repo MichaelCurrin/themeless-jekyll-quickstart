@@ -1,9 +1,4 @@
-title: Static Pages Demo
-
-# Add compatibility for Github Pages so assets can be accessed.
-baseurl: "/static-pages-demo"
-url: ""
-
+### Build settings ###
 
 # Plugins in the Gemfile should be repeated here for Github Pages to use them.
 # Otherwise your content which depends on the plugin will cause a build to a fail.
@@ -13,7 +8,20 @@ plugins:
   - jekyll-seo-tag
 
 
-# Override the default with true so each author gets their own page rather than just being
+### Site metadata ###
+
+title: Static Pages Demo
+
+# Internal links must be made relative to this to this path for Github Pages compatibility. Usually
+# the name of the repo.
+baseurl: "/static-pages-demo"
+# Used if hosting on a custom domain.
+url: ""
+
+
+### Content settings ###
+
+# Override the default with true so authors gets their own page each, rather than just being
 # listed as items on the Staff page.
 collections:
   authors:
@@ -38,3 +46,7 @@ defaults:
       path: ""
     values:
       layout: "default"
+
+exclude:
+ - LICENSE
+ - README.md
