@@ -1,7 +1,7 @@
 # Static Pages Demo
-> Demo of a static site built using the Jekyll tutorial
+> Barebones demo of a themeless Jekyll static site, based on the Jekyll tutorial
 
-This project is based on following the [Jekyll Step-by-Step tutorial](https://jekyllrb.com/docs/step-by-step/01-setup/) and is hosted on Github Pages as a live demo.
+This project is based on following the [Jekyll Step-by-Step tutorial](https://jekyllrb.com/docs/step-by-step/01-setup/). It can can be used as a template or reference for other projects and is also hosted on Github Pages as a site.
 
 The contents of this project shows how to work with [Liquid](https://shopify.github.io/liquid/) templating and [Jekyll](https://jekyllrb.com/) (Ruby gem for generating static sites). The frontmatter (HTML and markdown content) pages are built with the template engine to produce HTML which is served. In this case, the output is kept simple - a few pages, each with a navigation bar that has current page highlighed.
 
@@ -43,7 +43,7 @@ $ jekyll serve --baseurl ''
 
 Open in the browser at:
 
-http://localhost:4000/
+- http://localhost:4000/
 
 
 The `baseurl` value is set in the config to make it easy to [run on Github Pages](#run-on-github-pages). But this should be be overridden when running locally as shown above, in order prevent the site from being served on http://localhost:4000/static-pages-demo and giving a 404 on the http://localhost:4000/ path.
@@ -70,12 +70,12 @@ The following plugins were recommended as part of the [deploy step](https://jeky
 
 The first doesn't need any setup and generates the following:
 
-http://localhost:4000/sitemap.xml
+- http://localhost:4000/sitemap.xml
 
 The other two plugins have been added to the [defaults](_layouts/default.html) file as `feed_meta` and `seo` tags in the head (view the source of any page to see the result). If using a theme like `minima`, you will find that those are already included in the theme's default layout.
 
 The RSS Feed is available here:
 
-http://localhost:4000/feed.xml
+- http://localhost:4000/feed.xml
 
 If not overriding the configured `baseurl`, the paths of all pages (including the feed and sitemap) will be off of the subpath. The links inside the feed and sitemap files will reflect that too.
