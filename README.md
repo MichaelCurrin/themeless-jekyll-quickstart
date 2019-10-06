@@ -21,15 +21,15 @@ Since this is a project page, the subpath of `static-pages-demo` is automaticall
 
 ## Installation
 
-### Clone the repo
+### Clone
 
-```bash
-$ git clone https://github.com/MichaelCurrin/static-pages-demo.git
-```
+Optionally this to your own repo - either fork this repo or click _Use this Template_.
+
+Then clone your repo or this one.
 
 ### System and project dependencies
 
-Follow the instructions in this [Gemfile installation gist](https://gist.github.com/MichaelCurrin/1085ab164550b31272699920b5549d4b#with-a-gemfile).
+Follow this [Setup and Run](https://github.com/MichaelCurrin/static-sites-generator-resources/blob/master/Jekyll/setup_and_run.md) guide to get `bundle` and `jekyll` installed.
 
 
 ## Run
