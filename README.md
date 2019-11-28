@@ -1,5 +1,5 @@
 # Static Pages Demo
-> Barebones demo of a themeless Jekyll static site, based on the Jekyll tutorial
+> Barebones demo of a themeless Jekyll static site, based on the Jekyll tutorial.
 
 This project is based on following the [Jekyll Step-by-Step tutorial](https://jekyllrb.com/docs/step-by-step/01-setup/). It can can be used as a template or reference for other projects and is also hosted on Github Pages as a site.
 
