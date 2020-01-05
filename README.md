@@ -5,6 +5,8 @@
 [![Made with Jekyll](https://img.shields.io/badge/Made%20with-Jekyll-blue.svg)](https://jekyllrb.com)
 [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/MichaelCurrin/static-pages-demo/blob/master/LICENSE)
 
+**Table of contents:**
+
 - [Purpose](#purpose)
 - [About](#about)
 - [Run on Github Pages](#run-on-github-pages)
