@@ -27,51 +27,82 @@ Optionally this to your own repo - either fork this repo or click _Use this Temp
 
 Then clone your repo or this one.
 
-### System and project dependencies
+Navigate to the repo root directory locally.
 
-Follow this [Setup and Run](https://github.com/MichaelCurrin/static-sites-generator-resources/blob/master/Jekyll/setup_and_run.md) guide to get `bundle` and `jekyll` installed.
+You can the `make` command help.
 
+```bash
+$ make install
+```
+
+### System dependencies
+
+Install [Jekyll](https://jekyllrb.com/) and [Bundler](https://bundler.io/) globally.
+
+```bash
+$ gem install jekyll bundler
+```
+
+### Project dependencies.
+
+Install gems. If run repeatedly, this command will **not** upgrade gems.
+
+```bash
+$ make install
+```
+
+Run this command in future to upgrade to the latest gems.
+
+```bash
+$ make upgrade
+```
+
+The [Gemfile.lock](/Gemfile.lock) file will be updated if there are any changes. You can commit this. That file is optional for Github Pages but required if you want to deploy to Netlify.
 
 ## Run
 
-Build to the `_site` directory and start the web server with this command.
+Build to the `_site` directory and start the web server.
 
 ```bash
-$ jekyll serve --baseurl ''
+$ make server-root
 ```
 
-Open in the browser at:
+Open the browser at:
 
 - http://localhost:4000/
 
 
 The `baseurl` value is set in the config to make it easy to [run on Github Pages](#run-on-github-pages). But this should be be overridden when running locally as shown above, in order prevent the site from being served on http://localhost:4000/static-pages-demo and giving a 404 on the http://localhost:4000/ path.
 
-
-When building site content to deploy to production, replace the default `'development'` value with `production` using the following.
+When building site content to deploy to production, replace the default `'development'` value with `production`.
 
 ```bash
-$ JEKYLL_ENV=production bundle exec jekyll build
+$ make build-prod
 ```
 
-This will affect any checks such as `if jekyll.environment == "production"`
+This will affect any checks in the files such as `if jekyll.environment == "production"`. This is useful for example to only show Google Analytics tag on Production site.
 
-Then copy the contents of `_site` to your server.
+Then copy the contents of *_site* directory to your server.
 
 
 ## Plugins
 
 The following plugins were recommended as part of the [deploy step](https://jekyllrb.com/docs/step-by-step/10-deployment/) of the Jekyll tutorial tutorial and so are used in this project in both the [gem file](/Gemfile) and [Jekyll config](/_config.yml).
 
-- **jekyll-sitemap** - Creates a robots and sitemap file, to help search engines index content. No changes to be made to the code to get this.
+- **jekyll-sitemap** - Creates a robots and sitemap file, to help search engines index content.
 - **jekyll-feed** - Creates an RSS feed for your posts. This is typically shown on as link  in the header or footer.
-- **jekyll-seo-tag** - Adds meta tags to help with SEO.
+- **jekyll-seo-tag** - Makes meta tag snippets available, to help with SEO.
 
-The first doesn't need any setup and generates the following:
+### Sitemap
 
+The first doesn't need any setup other than in the two files mentioned above. Serving the site will give following:
+
+- http://localhost:4000/robots.txt
 - http://localhost:4000/sitemap.xml
 
-The other two plugins have been added to the [defaults](_layouts/default.html) file as `feed_meta` and `seo` tags in the head (view the source of any page to see the result). If using a theme like `minima`, you will find that those are already included in the theme's default layout.
+## Feed and SEO Tag
+
+The other two plugins have been added to the [defaults](_layouts/default.html) file as `{% feed_meta %}` and `{% seo %}` tags in the head (view the source of any page to see the result). If using a theme like `minima`, you will find that those are already included in the theme's default layout.
 
 The RSS Feed is available here:
 
