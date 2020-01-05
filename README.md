@@ -29,10 +29,10 @@ Then clone your repo or this one.
 
 Navigate to the repo root directory locally.
 
-You can the `make` command help.
+You can view commands in the [Makefile](./Makefile) or continue.
 
 ```bash
-$ make install
+$ make help
 ```
 
 ### System dependencies
