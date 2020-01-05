@@ -7,7 +7,6 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
-
 ### Site metadata ###
 
 title: Static Pages Demo
@@ -17,7 +16,6 @@ title: Static Pages Demo
 baseurl: "/static-pages-demo"
 # Used if hosting on a custom domain.
 url: ""
-
 
 ### Content settings ###
 
@@ -48,5 +46,6 @@ defaults:
       layout: "default"
 
 exclude:
- - LICENSE
- - README.md
+  - vendor/
+  - LICENSE
+  - README.md
