@@ -91,7 +91,7 @@ The [Gemfile.lock](/Gemfile.lock) file will be updated if there are any changes.
 Build to the `_site` directory and start the web server.
 
 ```bash
-$ make server-root
+$ make serve-root
 ```
 
 Open the browser at:
