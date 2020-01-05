@@ -14,7 +14,7 @@ Some useful links which helped me with learning how to use Jekyll are in this [g
 
 Through setting Github Pages section of the Github repo's settings, this site is available at:
 
-https://michaelcurrin.github.io/static-pages-demo
+- [michaelcurrin.github.io/static-pages-demo](https://michaelcurrin.github.io/static-pages-demo)
 
 Since this is a project page, the subpath of `static-pages-demo` is automatically set using the repo's name. In order to keep navigation and asset URLs in line with this and prevent errors, the `baseurl` in the [config](_config.yml) file is also set to that subpath.
 
@@ -33,7 +33,6 @@ Follow this [Setup and Run](https://github.com/MichaelCurrin/static-sites-genera
 
 
 ## Run
-
 
 Build to the `_site` directory and start the web server with this command.
 
@@ -62,11 +61,11 @@ Then copy the contents of `_site` to your server.
 
 ## Plugins
 
-The following plugins were recommended as part of the [deploy step](https://jekyllrb.com/docs/step-by-step/10-deployment/) of the Jekyll tutorial tutorial and so are used in this project.
+The following plugins were recommended as part of the [deploy step](https://jekyllrb.com/docs/step-by-step/10-deployment/) of the Jekyll tutorial tutorial and so are used in this project in both the [gem file](/Gemfile) and [Jekyll config](/_config.yml).
 
-- **jekyll-sitemap** - Creates a sitemap file to help search engines index content.
-- **jekyll-feed** - Creates an RSS feed for your posts
-- **jekyll-seo-tag** - Adds meta tags to help with SEO
+- **jekyll-sitemap** - Creates a robots and sitemap file, to help search engines index content. No changes to be made to the code to get this.
+- **jekyll-feed** - Creates an RSS feed for your posts. This is typically shown on as link  in the header or footer.
+- **jekyll-seo-tag** - Adds meta tags to help with SEO.
 
 The first doesn't need any setup and generates the following:
 
