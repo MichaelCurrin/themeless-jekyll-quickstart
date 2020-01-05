@@ -127,7 +127,7 @@ The first doesn't need any setup other than in the two files mentioned above. Se
 - http://localhost:4000/robots.txt
 - http://localhost:4000/sitemap.xml
 
-## Feed and SEO Tag
+### Feed and SEO Tag
 
 The other two plugins have been added to the [defaults](_layouts/default.html) file as `{% feed_meta %}` and `{% seo %}` tags in the head (view the source of any page to see the result). If using a theme like `minima`, you will find that those are already included in the theme's default layout.
 
