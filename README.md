@@ -5,14 +5,33 @@
 [![Made with Jekyll](https://img.shields.io/badge/Made%20with-Jekyll-blue.svg)](https://jekyllrb.com)
 [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/MichaelCurrin/static-pages-demo/blob/master/LICENSE)
 
-This project is based on following the [Jekyll Step-by-Step tutorial](https://jekyllrb.com/docs/step-by-step/01-setup/). It can can be used as a template or reference for other projects and is also hosted on Github Pages as a site.
+- [Purpose](#purpose)
+- [About](#about)
+- [Run on Github Pages](#run-on-github-pages)
+- [Installation](#installation)
+    - [Clone](#clone)
+    - [System dependencies](#system-dependencies)
+    - [Project dependencies.](#project-dependencies)
+- [Run](#run)
+- [Plugins](#plugins)
+    - [Sitemap](#sitemap)
+- [Feed and SEO Tag](#feed-and-seo-tag)
+
+## Purpose
+
+This project is based on following the [Jekyll Step-by-Step tutorial](https://jekyllrb.com/docs/step-by-step/01-setup/) and serves the following purposes:
+
+- Create quickstart project from this one, using the _Use this template_ button.
+- This is a reference for other projects.
+- This has a demo site hosted as a _Github Pages_ site.
+
+## About
 
 The contents of this project shows how to work with [Liquid](https://shopify.github.io/liquid/) templating and [Jekyll](https://jekyllrb.com/) (Ruby gem for generating static sites). The frontmatter (HTML and markdown content) pages are built with the template engine to produce HTML which is served. In this case, the output is kept simple - a few pages, each with a navigation bar that has current page highlighted.
 
 Usually a Jekyll theme is used for static sites so they can have styling, then you override the sections you want. There is no theme here and so there is no _Gemfile_ nor theme set in config.
 
 Some useful links which helped me with learning how to use Jekyll are in this [gist](https://gist.github.com/MichaelCurrin/dfd14bfa74938e40f251bc00445a1627).
-
 
 ## Run on Github Pages
 
