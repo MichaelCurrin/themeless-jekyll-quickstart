@@ -101,6 +101,8 @@ Open the browser at:
 
 The `baseurl` value is set in the config to make it easy to [run on Github Pages](#run-on-github-pages). But this should be be overridden when running locally as shown above, in order prevent the site from being served on http://localhost:4000/static-pages-demo and giving a 404 on the http://localhost:4000/ path.
 
+## Production build
+
 When building site content to deploy to production, replace the default `'development'` value with `production`.
 
 ```bash
@@ -109,7 +111,7 @@ $ make build-prod
 
 This will affect any checks in the files such as `if jekyll.environment == "production"`. This is useful for example to only show Google Analytics tag on Production site.
 
-Then copy the contents of *_site* directory to your server.
+Then copy the contents of *_site* directory to your server and serve with Apache or a similar web server.
 
 
 ## Plugins
