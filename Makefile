@@ -10,15 +10,15 @@ upgrade:
 
 
 # Serve on subpath, as on Github Pages project site.
-ss serve-sub:
-	bundle exec jekyll serve
+s serve:
+	bundle exec jekyll serve --livereload
 
 # Serve on root, as on Github Pages user site or Netlify.
-sr serve-root:
-	bundle exec jekyll serve --baseurl ''
+r serve-root:
+	bundle exec jekyll serve --baseurl '' --livereload
 
 
-build-dev:
+build:
 	bundle exec jekyll build
 
 build-prod:
