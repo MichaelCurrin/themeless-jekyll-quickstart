@@ -90,6 +90,21 @@ The [Gemfile.lock](/Gemfile.lock) file will be updated if there are any changes.
 
 Build to the `_site` directory and start the web server.
 
+### On subpath
+
+Set `baseurl` value in the config - this should be changed to match the repo name. This makes it easy to mirror how sites [run on Github Pages](#run-on-github-pages).
+
+```bash
+$ make serve
+```
+
+Open the browser at:
+
+- http://localhost:4000/static-pages-demo
+
+
+### On root path
+
 ```bash
 $ make serve-root
 ```
@@ -98,8 +113,6 @@ Open the browser at:
 
 - http://localhost:4000/
 
-
-The `baseurl` value is set in the config to make it easy to [run on Github Pages](#run-on-github-pages). But this should be be overridden when running locally as shown above, in order prevent the site from being served on http://localhost:4000/static-pages-demo and giving a 404 on the http://localhost:4000/ path.
 
 ## Production build
 
