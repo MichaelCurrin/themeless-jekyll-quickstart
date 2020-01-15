@@ -1,0 +1,6 @@
+- name: Python
+  link: https://python.org
+- name: Jekyll
+  link: https://jekyllrb.com
+- name: NodeJS
+  link: https://nodejs.org
