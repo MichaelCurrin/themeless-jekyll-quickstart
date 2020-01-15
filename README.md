@@ -24,7 +24,11 @@
 This project is based on following the [Jekyll Step-by-Step tutorial](https://jekyllrb.com/docs/step-by-step/01-setup/) and serves the following purposes:
 
 - Create quickstart project from this one, using the _Use this template_ button.
-- This is a reference for other projects.
+- This is a reference for other projects. In particular, for:
+    - Blog [page](/blog.html) and [posts](/_posts).
+    - Navigation bar using configured a [navigation.html](/_data/navigation.yml) data file and rendered using [navigation.html](_includes/navigation.html) file.
+    - Iterating of data such as in the [skills.yml][/_data/skills.yml] file.
+    - Use of [plugins](#plugins).
 - This has a demo site hosted as a _Github Pages_ site.
 
 ## About
