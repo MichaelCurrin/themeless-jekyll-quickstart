@@ -9,35 +9,61 @@
 
 - [Purpose](#purpose)
 - [About](#about)
+    - [Theme](#theme)
+    - [How this project is structured](#how-this-project-is-structured)
+    - [Resources](#resources)
 - [Run on Github Pages](#run-on-github-pages)
 - [Installation](#installation)
     - [Clone](#clone)
     - [System dependencies](#system-dependencies)
     - [Project dependencies.](#project-dependencies)
 - [Run](#run)
+    - [On subpath](#on-subpath)
+    - [On root path](#on-root-path)
+- [Production build](#production-build)
 - [Plugins](#plugins)
     - [Sitemap](#sitemap)
-- [Feed and SEO Tag](#feed-and-seo-tag)
+    - [Feed and SEO Tag](#feed-and-seo-tag)
 
 ## Purpose
+
 
 This project is based on following the [Jekyll Step-by-Step tutorial](https://jekyllrb.com/docs/step-by-step/01-setup/) and serves the following purposes:
 
 - Create quickstart project from this one, using the _Use this template_ button.
-- This is a reference for other projects. In particular, for:
-    - Blog [page](/blog.html) and [posts](/_posts).
-    - Navigation bar using configured a [navigation.html](/_data/navigation.yml) data file and rendered using [navigation.html](_includes/navigation.html) file.
-    - Iterating of data such as in the [skills.yml][/_data/skills.yml] file.
-    - Use of [plugins](#plugins).
+- This is a reference for other projects.
 - This has a demo site hosted as a _Github Pages_ site.
 
 ## About
 
-The contents of this project shows how to work with [Liquid](https://shopify.github.io/liquid/) templating and [Jekyll](https://jekyllrb.com/) (Ruby gem for generating static sites). The frontmatter (HTML and markdown content) pages are built with the template engine to produce HTML which is served. In this case, the output is kept simple - a few pages, each with a navigation bar that has current page highlighted.
+The contents of this project shows how to work with [Liquid](https://shopify.github.io/liquid/) templating and [Jekyll](https://jekyllrb.com/) (Ruby gem for generating static sites).
 
-Usually a Jekyll theme is used for static sites so they can have styling, then you override the sections you want. There is no theme here and so there is no _Gemfile_ nor theme set in config.
+The _frontmatter_ (HTML and markdown content) pages are built with the template engine to produce HTML which is served. In this case, the output is kept simple - a few pages, each with a navigation bar that has current page highlighted.
 
-Some useful links which helped me with learning how to use Jekyll are in this [gist](https://gist.github.com/MichaelCurrin/dfd14bfa74938e40f251bc00445a1627).
+### Theme
+
+Usually a _Jekyll theme_ is used for static sites so they can have styling, then you override the sections you want. However this project has **no** theme set.
+
+### How this project is structured
+
+- Navigation bar using configured a [navigation.html](/_data/navigation.yml) data file and rendered using [navigation.html](_includes/navigation.html) file.
+- Blog [page](/blog.html) and [posts](/_posts).
+- Blog post authors are in the [_authors](_authors/) directory, enabled as a collection in [config](_config.yml) and then referenced by blog post with an `author` field.
+- Skills are listed in the [skills.yml][/_data/skills.yml] data file and are iterated over in the [my_skills.md](/my_skills.md) page.
+- The [_layouts](/layouts/) directory has a few layouts and these are matched to pages using the [config](_config.yml) file.
+- [Plugins](#plugins) are set in the [Gemfile](/Gemfile) and [config](_config.yml).
+
+#### Collections note
+
+A note on generating pages as a collection. Each author markdown file generate its own author page because of the setup above. When iterating, you can use the default ordering, or use a Jekyll filter to order them or reverse them or you could add a priority (or order or weight) field in each to sort by (e.g. sort by this value ascending where `1` would mean 1st position).
+
+This cannot unfortunately be done using a single YAML data file. Unless you use a plugin, or generate markdown files from a CSV as suggested in this [Jekyll issue](https://github.com/jekyll/jekyll/issues/2983) conversation.
+
+### Resources
+
+- [Jekyll collections](https://jekyllrb.com/docs/collections/)
+- Some useful links which helped me with learning how to use Jekyll are in this [gist](https://gist.github.com/MichaelCurrin/dfd14bfa74938e40f251bc00445a1627).
+
 
 ## Run on Github Pages
 
