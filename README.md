@@ -3,6 +3,7 @@
 
 [![Use this template](https://img.shields.io/badge/Use_this_template-green.svg)](https://github.com/MichaelCurrin/static-pages-demo/generate)
 [![Made with Jekyll](https://img.shields.io/badge/Made%20with-Jekyll-blue.svg)](https://jekyllrb.com)
+[![GitHub tag](https://img.shields.io/github/tag/MichaelCurrin/static-pages-demo.svg)](https://GitHub.com/MichaelCurrin/static-pages-demo/tags/)
 [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/MichaelCurrin/static-pages-demo/blob/master/LICENSE)
 
 **Table of contents:**
