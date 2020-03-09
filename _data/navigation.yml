@@ -1,6 +1,10 @@
-# In navigation includes file we loop through using site.data.navigation as defined here.
+# In the navigation _includes file we loop through using site.data.navigation as defined here.
+# These are just page paths, not validated.
+#
 # Alternatively, loop through the front matter of pages and use header_pages value in config
-# file reference the filenames of nav items, in required ordered.
+# file reference the filenames of nav items, in required ordered. That should look up the page
+# from all the pages. Also, then titles from the page can be used, rather than setting here.
+#
 # https://jekyllrb.com/tutorials/navigation/
 - name: Home
   link: /
