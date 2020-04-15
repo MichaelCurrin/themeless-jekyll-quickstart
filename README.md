@@ -49,8 +49,8 @@ Usually a _Jekyll theme_ is used for static sites so they can have styling, then
 
 - Navigation bar using configured a [navigation.html](/_data/navigation.yml) data file and rendered using [navigation.html](_includes/navigation.html) file.
 - Blog [page](/blog.html) and [posts](/_posts).
-- Blog post authors are in the [_authors](_authors/) directory, enabled as a collection in [config](_config.yml) and then referenced by blog post with an `author` field.
-- Skills are listed in the [skills.yml][/_data/skills.yml] data file and are iterated over in the [my_skills.md](/my_skills.md) page.
+- Blog post authors are in the [\_authors](_authors/) directory, enabled as a collection in [config](_config.yml) and then referenced by blog post with an `author` field.
+- Skills are listed in the [skills.yml](/_data/skills.yml) data file and are iterated over in the [my_skills.md](/my_skills.md) page.
 - The [_layouts](/layouts/) directory has a few layouts and these are matched to pages using the [config](_config.yml) file.
 - [Plugins](#plugins) are set in the [Gemfile](/Gemfile) and [config](_config.yml).
 
@@ -87,7 +87,7 @@ Then clone your repo or this one.
 
 Navigate to the repo root directory locally.
 
-You can view commands in the [Makefile](./Makefile) or continue.
+You can view commands in the [Makefile](/Makefile) or continue.
 
 ```bash
 $ make help
