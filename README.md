@@ -36,9 +36,13 @@
 
 This project is based on following the [Jekyll Step-by-Step tutorial](https://jekyllrb.com/docs/step-by-step/01-setup/) and serves the following purposes:
 
-- Create quickstart project from this one, using the _Use this template_ button.
+- Create a project quickly from this one, using the _Use this template_ button.
 - This is a reference for other projects.
-- This has a demo site hosted as a _Github Pages_ site.
+- There is demo site hosted as a _Github Pages_ site.
+
+Note that this project has **no** theme, to keep the config and installation lighter. If you want to see use of a theme in a simple project, see this projet:
+
+- [michaelCurrin/jekyll-blog-demo](https://github.com/MichaelCurrin/jekyll-blog-demo).
 
 
 ## About
@@ -72,13 +76,15 @@ This cannot unfortunately be done using a single YAML data file. Unless you use 
 - Some useful links which helped me with learning how to use Jekyll are in this [gist](https://gist.github.com/MichaelCurrin/dfd14bfa74938e40f251bc00445a1627).
 
 
-## Run on Github Pages
+## Deploy
+
+This project can be run on Github Pages.
 
 Through setting Github Pages section of the Github repo's settings, this site is available at:
 
-- [michaelcurrin.github.io/static-pages-demo](https://michaelcurrin.github.io/static-pages-demo)
+- [michaelcurrin.github.io/themeless-jekyll-quickstart](https://michaelcurrin.github.io/themeless-jekyll-quickstart/)
 
-Since this is a project page, the subpath of `static-pages-demo` is automatically set using the repo's name. In order to keep navigation and asset URLs in line with this and prevent errors, the `baseurl` in the [config](_config.yml) file is also set to that subpath.
+Since this is a project page, the subpath of `themeless-jekyll-quickstart` is automatically set using the repo's name. In order to keep navigation and asset URLs in line with this and prevent errors, the `baseurl` in the [config](/_config.yml) file is also set to that subpath.
 
 
 ## Installation
