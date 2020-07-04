@@ -9,13 +9,13 @@ plugins:
 
 ### Site metadata ###
 
-title: Static Pages Demo
+title: Themeless Jekyll Quickstart
 
-# Internal links must be made relative to this to this path for Github Pages compatibility. Usually
-# the name of the repo.
-baseurl: "/static-pages-demo"
 # Used if hosting on a custom domain.
 url: ""
+# Internal links must be made relative to this to this path for Github Pages compatibility. Usually
+# the name of the repo.
+baseurl: "/themeless-jekyll-quickstart"
 
 ### Content settings ###
 
