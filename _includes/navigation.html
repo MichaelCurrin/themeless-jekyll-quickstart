@@ -5,7 +5,7 @@
     {% endcomment %}
 
     {% for item in site.data.navigation %}
-        {% unless forloop.first or forloop.last %} | {% endunless %}
+        {%- unless forloop.first %} | {% endunless -%}
         <a href="{{ item.link | relative_url }}" {% if item.link == page.url %}class="current" {% endif %}>
             {{ item.name }}
         </a>
