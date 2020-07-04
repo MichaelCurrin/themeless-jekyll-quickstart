@@ -3,19 +3,22 @@
 
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ page.title }}</title>
-    <link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}">
-
+    
     <!-- RSS feed -->
     {% feed_meta %}
 
     <!-- SEO -->
     {% seo %}
 
-    <!-- Analytics tracking for production -->
+    <!-- Analytics tracking -->
     {% if jekyll.environment == "production" %}
-    <script src="my-analytics-script.js"></script>
+        <script src="my-analytics-script.js"></script>
     {% endif %}
+    
+    <link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}">
+
 </head>
 
 <body>
@@ -24,6 +27,7 @@
 
     <!-- Content -->
     {{ content }}
+    
 </body>
 
 </html>
