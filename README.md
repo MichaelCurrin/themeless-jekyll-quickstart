@@ -1,10 +1,14 @@
-# Static Pages Demo
-> Barebones demo of a themeless Jekyll static site, based on the Jekyll tutorial.
+# Themeless Jekyll Quickstart
+> A barebones Jekyll site without an external theme - based on the Jekyll tutorial
 
-[![Use this template](https://img.shields.io/badge/Use_this_template-green.svg)](https://github.com/MichaelCurrin/static-pages-demo/generate)
-[![Made with Jekyll](https://img.shields.io/badge/Made%20with-Jekyll-blue.svg)](https://jekyllrb.com)
-[![GitHub tag](https://img.shields.io/github/tag/MichaelCurrin/static-pages-demo.svg)](https://GitHub.com/MichaelCurrin/static-pages-demo/tags/)
-[![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/MichaelCurrin/static-pages-demo/blob/master/LICENSE)
+[![Made with Jekyll](https://img.shields.io/badge/Made_with-Jekyll-blue)](https://jekyllrb.com)
+[![GitHub tag](https://img.shields.io/github/tag/MichaelCurrin/themeless-jekyll-quickstart)](https://GitHub.com/MichaelCurrin/themeless-jekyll-quickstart/tags/)
+[![MIT license](https://img.shields.io/badge/License-MIT-blue)](#license)
+
+[![Use this template](https://img.shields.io/badge/Use_this_template-green?style=for-the-badge)](https://github.com/MichaelCurrin/themeless-jekyll-quickstart/generate)
+
+[![View site GH Pages](https://img.shields.io/badge/GitHub_Pages-Live_demo-green?style=for-the-badge)](https://MichaelCurrin.github.io/themeless-jekyll-quickstart/)
+
 
 **Table of contents:**
 
@@ -25,15 +29,17 @@
 - [Plugins](#plugins)
     - [Sitemap](#sitemap)
     - [Feed and SEO Tag](#feed-and-seo-tag)
+- [License](#license)
+
 
 ## Purpose
-
 
 This project is based on following the [Jekyll Step-by-Step tutorial](https://jekyllrb.com/docs/step-by-step/01-setup/) and serves the following purposes:
 
 - Create quickstart project from this one, using the _Use this template_ button.
 - This is a reference for other projects.
 - This has a demo site hosted as a _Github Pages_ site.
+
 
 ## About
 
@@ -182,3 +188,8 @@ The RSS Feed is available here:
 - http://localhost:4000/feed.xml
 
 If not overriding the configured `baseurl`, the paths of all pages (including the feed and sitemap) will be off of the subpath. The links inside the feed and sitemap files will reflect that too.
+
+
+## License
+
+Released under [MIT](/LICENSE).
