@@ -44,6 +44,8 @@ Note that this project has **no** theme, to keep the config and installation lig
 
 - [michaelCurrin/jekyll-blog-demo](https://github.com/MichaelCurrin/jekyll-blog-demo).
 
+This project demonstrates a few things in Jekyll, but the approach is not necessarily best practice. See [minima](https://github.com/jekyll/minima) project for a good idea of how to setup a navbar, styling, JS, includes files and other pieces.
+
 
 ## About
 
