@@ -12,6 +12,7 @@
 
 **Table of contents:**
 
+- [Sample](#sample)
 - [Purpose](#purpose)
 - [About](#about)
     - [Theme](#theme)
@@ -30,6 +31,11 @@
     - [Sitemap](#sitemap)
     - [Feed and SEO Tag](#feed-and-seo-tag)
 - [License](#license)
+
+
+## Sample
+
+![sample](/sample.png)
 
 
 ## Purpose
@@ -95,27 +101,27 @@ Setup the project locally - instructions are for _Linux_ or _macOS_ systems.
 
 ### Clone
 
-Optionally this to your own repo - either fork this repo or click _Use this Template_.
+Optionally this to your own repo - either fork this repo or click [![Use this template](https://img.shields.io/badge/Use_this_template-green)](https://github.com/MichaelCurrin/themeless-jekyll-quickstart/generate).
 
 Then clone your repo or this one.
 
 Navigate to the repo root directory locally.
 
-You can view commands in the [Makefile](/Makefile) or continue.
+You can view commands in the [Makefile](/Makefile) or skip that and continue.
 
 ```bash
 $ make help
 ```
 
-### System dependencies
+### Install system dependencies
 
 Install [Jekyll](https://jekyllrb.com/) and [Bundler](https://bundler.io/) globally.
 
 ```bash
-$ gem install jekyll bundler
+$ gem install --user-install jekyll bundler
 ```
 
-### Project dependencies.
+### Install project dependencies
 
 Install gems. If run repeatedly, this command will **not** upgrade gems.
 
@@ -130,6 +136,7 @@ $ make upgrade
 ```
 
 The [Gemfile.lock](/Gemfile.lock) file will be updated if there are any changes. You can commit this. That file is optional for Github Pages but required if you want to deploy to Netlify.
+
 
 ## Run
 
