@@ -5,14 +5,16 @@
 [![GitHub tag](https://img.shields.io/github/tag/MichaelCurrin/themeless-jekyll-quickstart)](https://GitHub.com/MichaelCurrin/themeless-jekyll-quickstart/tags/)
 [![MIT license](https://img.shields.io/badge/License-MIT-blue)](#license)
 
-[![Use this template](https://img.shields.io/badge/Use_this_template-green?style=for-the-badge)](https://github.com/MichaelCurrin/themeless-jekyll-quickstart/generate)
+<div align="center">
 
+[![Use this template](https://img.shields.io/badge/Use_this_template-green?style=for-the-badge)](https://github.com/MichaelCurrin/themeless-jekyll-quickstart/generate)
 [![View site GH Pages](https://img.shields.io/badge/GitHub_Pages-Live_demo-green?style=for-the-badge)](https://MichaelCurrin.github.io/themeless-jekyll-quickstart/)
 
+</div>
 
 **Table of contents:**
 
-- [Sample](#sample)
+- [Preview](#preview)
 - [Purpose](#purpose)
 - [About](#about)
     - [Theme](#theme)
@@ -33,7 +35,7 @@
 - [License](#license)
 
 
-## Sample
+## Preview
 
 ![sample](/sample.png)
 
