@@ -7,8 +7,8 @@
 
 <div align="center">
 
-[![Use this template](https://img.shields.io/badge/Use_this_template-green?style=for-the-badge)](https://github.com/MichaelCurrin/themeless-jekyll-quickstart/generate)
 [![View site GH Pages](https://img.shields.io/badge/GitHub_Pages-Live_demo-green?style=for-the-badge)](https://MichaelCurrin.github.io/themeless-jekyll-quickstart/)
+[![Use this template](https://img.shields.io/badge/Use_this_template-green?style=for-the-badge)](https://github.com/MichaelCurrin/themeless-jekyll-quickstart/generate)
 
 </div>
 
