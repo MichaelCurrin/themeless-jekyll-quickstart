@@ -1,7 +1,7 @@
 # Themeless Jekyll Quickstart
 > A barebones Jekyll site without an external theme - based on the Jekyll tutorial
 
-[![Made with Jekyll](https://img.shields.io/badge/Made_with-Jekyll-blue)](https://jekyllrb.com)
+[![Made with Jekyll](https://img.shields.io/badge/Made_with-Jekyll-blue?logo=jekyll)](https://jekyllrb.com)
 [![GitHub tag](https://img.shields.io/github/tag/MichaelCurrin/themeless-jekyll-quickstart)](https://GitHub.com/MichaelCurrin/themeless-jekyll-quickstart/tags/)
 [![MIT license](https://img.shields.io/badge/License-MIT-blue)](#license)
 
@@ -46,16 +46,26 @@ This project is based on following the [Jekyll Step-by-Step tutorial](https://je
 
 - Create a project quickly from this one, using the _Use this template_ button.
 - This is a reference for other projects.
-- There is demo site hosted as a _Github Pages_ site.
+- There is demo site hosted as a _GitHub Pages_ site.
 
 Note that this project has **no** theme, to keep the config and installation lighter. If you want to see use of a theme in a simple project, see this projet:
 
 - [michaelCurrin/jekyll-blog-demo](https://github.com/MichaelCurrin/jekyll-blog-demo).
 
-This project demonstrates a few things in Jekyll, but the approach is not necessarily best practice. See [minima](https://github.com/jekyll/minima) project for a good idea of how to setup a navbar, styling, JS, includes files and other pieces.
+This project demonstrates a few things in Jekyll, but the approaches are not necessarily best practice. See [minima](https://github.com/jekyll/minima) project for a good idea of how to setup a navbar, styling, JS, includes files and other pieces.
+
+### Turn your HTML assets into a Jekyll project
+
+This project is a good starting point if you have some existing HTML and CSS that you've built or downloaded as a theme and now you want to build a Jekyll site from it to make it easy to maintain. As you'll get to use a config file and layouts for templating plus you can use the included gems like Jekyll sitemap to handle SEO for you.
+
+This project has limited styling and does not use a theme gem, so it is good to use. 
+
+You can easily make a new project from this template and replace the layouts with content from an existing folder of static HTML. Add any includes files you need like `head.html`, `analytics.html` or `gallery.html`. Delete or rename the pages.
+
+You can add CSS as external content in the head tag or as CSS files on the repo.
 
 
-## About
+## About this project
 
 The contents of this project shows how to work with [Liquid](https://shopify.github.io/liquid/) templating and [Jekyll](https://jekyllrb.com/) (Ruby gem for generating static sites).
 
@@ -88,7 +98,7 @@ This cannot unfortunately be done using a single YAML data file. Unless you use 
 
 ## Deploy
 
-This project can be run on Github Pages.
+This project can be run on GitHub Pages.
 
 Through setting Github Pages section of the Github repo's settings, this site is available at:
 
