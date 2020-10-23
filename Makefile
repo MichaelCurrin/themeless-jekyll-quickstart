@@ -1,25 +1,22 @@
-help:
+default: install
+
+h help:
 	@egrep '^\S|^$$' Makefile
 
 
 install:
-	bundle install --path vendor/bundle
-
-upgrade:
-	bundle update
+	bundle config set --local path vendor/bundle
+	bundle install
 
 
 # Serve on subpath, as on Github Pages project site.
 s serve:
-	bundle exec jekyll serve --livereload
+	bundle exec jekyll serve --trace --livereload
 
-# Serve on root, as on Github Pages user site or Netlify.
+# Serve on root, as on GitHub Pages user site or Netlify.
 r serve-root:
-	bundle exec jekyll serve --baseurl '' --livereload
+	bundle exec jekyll serve --baseurl '' --trace --livereload
 
 
 build:
-	bundle exec jekyll build
-
-build-prod:
 	JEKYLL_ENV=production bundle exec jekyll build

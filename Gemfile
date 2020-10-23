@@ -1,9 +1,10 @@
-source 'https://rubygems.org'
+source "https://rubygems.org"
 
-gem 'jekyll', '~> 3'
+gem "jekyll", "~> 3.9"
+gem "kramdown-parser-gfm", "~> 1.1.0"
 
 group :jekyll_plugins do
-  gem 'jekyll-sitemap'
-  gem 'jekyll-feed'
-  gem 'jekyll-seo-tag'
+  gem "jekyll-feed", "~> 0.15.0"
+  gem "jekyll-sitemap", "~> 1.4.0"
+  gem "jekyll-seo-tag", "~> 2.6.1"
 end
