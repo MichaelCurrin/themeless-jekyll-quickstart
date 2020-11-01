@@ -1,12 +1,3 @@
-### Build settings ###
-
-# Plugins in the Gemfile should be repeated here for Github Pages to use them.
-# Otherwise your content which depends on the plugin will cause a build to a fail.
-plugins:
-  - jekyll-sitemap
-  - jekyll-feed
-  - jekyll-seo-tag
-
 ### Site metadata ###
 
 title: Themeless Jekyll Quickstart
@@ -16,6 +7,15 @@ url: ""
 # Internal links must be made relative to this to this path for Github Pages compatibility. Usually
 # the name of the repo.
 baseurl: "/themeless-jekyll-quickstart"
+
+### Build settings ###
+
+# Plugins in the Gemfile should be repeated here for Github Pages to use them.
+# Otherwise your content which depends on the plugin will cause a build to a fail.
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
 
 ### Content settings ###
 
@@ -46,6 +46,6 @@ defaults:
       layout: "default"
 
 exclude:
-  - vendor/
   - LICENSE
   - README.md
+  - Makefile
