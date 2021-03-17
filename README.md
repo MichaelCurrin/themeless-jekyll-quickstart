@@ -1,5 +1,5 @@
 # Themeless Jekyll Quickstart
-> A barebones Jekyll site without an external theme - based on the Jekyll tutorial
+> A barebones Jekyll site with no installed theme - based on the Jekyll tutorial
 
 [![Made with Jekyll](https://img.shields.io/badge/Made_with-Jekyll-blue?logo=jekyll)](https://jekyllrb.com)
 [![GitHub tag](https://img.shields.io/github/tag/MichaelCurrin/themeless-jekyll-quickstart)](https://GitHub.com/MichaelCurrin/themeless-jekyll-quickstart/tags/)
