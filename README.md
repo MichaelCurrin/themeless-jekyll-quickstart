@@ -3,12 +3,13 @@
 
 [![Made with Jekyll](https://img.shields.io/badge/Made_with-Jekyll-blue?logo=jekyll)](https://jekyllrb.com)
 [![GitHub tag](https://img.shields.io/github/tag/MichaelCurrin/themeless-jekyll-quickstart)](https://GitHub.com/MichaelCurrin/themeless-jekyll-quickstart/tags/)
-[![MIT license](https://img.shields.io/badge/License-MIT-blue)](#license)
+[![License](https://img.shields.io/badge/License-MIT-blue)](#license)
 
 <div align="center">
 
-[![View site GH Pages](https://img.shields.io/badge/GitHub_Pages-Live_demo-green?style=for-the-badge)](https://MichaelCurrin.github.io/themeless-jekyll-quickstart/)
-[![Use this template](https://img.shields.io/badge/Use_this_template-green?style=for-the-badge)](https://github.com/MichaelCurrin/themeless-jekyll-quickstart/generate)
+[![View site GH Pages](https://img.shields.io/badge/GitHub_Pages-Live_demo-blue?style=for-the-badge)](https://MichaelCurrin.github.io/themeless-jekyll-quickstart/)
+
+[![Use this template](https://img.shields.io/badge/Generate-Use_this_template-darkgreen?style=for-the-badge)](https://github.com/MichaelCurrin/themeless-jekyll-quickstart/generate)
 
 </div>
 
