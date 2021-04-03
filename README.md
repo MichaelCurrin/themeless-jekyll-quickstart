@@ -33,9 +33,10 @@ This project is based on following the [Jekyll Step-by-Step tutorial](https://je
 - This is a reference for other projects.
 - There is demo site hosted as a _GitHub Pages_ site.
 
-Note that this project has **no** theme, to keep the config and installation lighter. If you want to see use of a theme in a simple project, see this projet:
+Note that this project has **no** theme. If you want to see use of a theme in a simple project, see these projects:
 
-- [michaelCurrin/jekyll-blog-demo](https://github.com/MichaelCurrin/jekyll-blog-demo).
+- [michaelCurrin/jekyll-blog-demo](https://github.com/MichaelCurrin/jekyll-blog-demo)
+- [jekyll-themed-site-quickstart](https://github.com/MichaelCurrin/jekyll-themed-site-quickstart)
 
 This project demonstrates a few things in Jekyll, but the approaches are not necessarily best practice. See [minima](https://github.com/jekyll/minima) project for a good idea of how to setup a navbar, styling, JS, includes files and other pieces.
 
