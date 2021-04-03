@@ -13,6 +13,8 @@
 
 </div>
 
+All the styling and assets are included in this repo. This gives you more control and configuring a theme. But it means the repo is heavy - including both your own content and the appearance setup.
+
 
 ## Preview
 
