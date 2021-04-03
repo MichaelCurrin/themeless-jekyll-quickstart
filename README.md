@@ -9,36 +9,18 @@
 
 [![View site GH Pages](https://img.shields.io/badge/GitHub_Pages-Live_demo-blue?style=for-the-badge)](https://MichaelCurrin.github.io/themeless-jekyll-quickstart/)
 
-[![Use this template](https://img.shields.io/badge/Generate-Use_this_template-darkgreen?style=for-the-badge)](https://github.com/MichaelCurrin/themeless-jekyll-quickstart/generate)
+[![Use this template](https://img.shields.io/badge/Generate-Use_this_template-2ea44f?style=for-the-badge)](https://github.com/MichaelCurrin/themeless-jekyll-quickstart/generate)
 
 </div>
-
-**Table of contents:**
-
-- [Preview](#preview)
-- [Purpose](#purpose)
-- [About](#about)
-    - [Theme](#theme)
-    - [How this project is structured](#how-this-project-is-structured)
-    - [Resources](#resources)
-- [Run on Github Pages](#run-on-github-pages)
-- [Installation](#installation)
-    - [Clone](#clone)
-    - [System dependencies](#system-dependencies)
-    - [Project dependencies.](#project-dependencies)
-- [Run](#run)
-    - [On subpath](#on-subpath)
-    - [On root path](#on-root-path)
-- [Production build](#production-build)
-- [Plugins](#plugins)
-    - [Sitemap](#sitemap)
-    - [Feed and SEO Tag](#feed-and-seo-tag)
-- [License](#license)
 
 
 ## Preview
 
-![sample](/sample.png)
+<div align="center">
+    <a href="(https://MichaelCurrin.github.io/themeless-jekyll-quickstart/">
+        <img src="/sample.png" alt="Sample screenshot" title="Sample screenshot" width="400" />
+    </a>
+</div>
 
 
 ## Purpose
@@ -78,12 +60,12 @@ Usually a _Jekyll theme_ is used for static sites so they can have styling, then
 
 ### How this project is structured
 
-- Navigation bar using configured a [navigation.html](/_data/navigation.yml) data file and rendered using [navigation.html](_includes/navigation.html) file.
+- Navigation bar using configured a [navigation.html](/_data/navigation.yml) data file and rendered using [navigation.html](/_includes/navigation.html) file.
 - Blog [page](/blog.html) and [posts](/_posts).
 - Blog post authors are in the [\_authors](_authors/) directory, enabled as a collection in [config](_config.yml) and then referenced by blog post with an `author` field.
 - Skills are listed in the [skills.yml](/_data/skills.yml) data file and are iterated over in the [my_skills.md](/my_skills.md) page.
-- The [_layouts](/layouts/) directory has a few layouts and these are matched to pages using the [config](_config.yml) file.
-- [Plugins](#plugins) are set in the [Gemfile](/Gemfile) and [config](_config.yml).
+- The [\_layouts](/_layouts/) directory has a few layouts and these are matched to pages using the [config](/_config.yml) file.
+- [Plugins](#plugins) are set in the [Gemfile](/Gemfile) and [config](/_config.yml).
 
 #### Collections note
 
@@ -99,9 +81,11 @@ This cannot unfortunately be done using a single YAML data file. Unless you use 
 
 ## Deploy
 
-This project can be run on GitHub Pages.
+This project can be setup on GitHub Pages.
 
-Through setting Github Pages section of the Github repo's settings, this site is available at:
+Do this by setting up GitHub Pages section of the GitHub repo's _Settings_.
+
+This project is available at:
 
 - [michaelcurrin.github.io/themeless-jekyll-quickstart](https://michaelcurrin.github.io/themeless-jekyll-quickstart/)
 
@@ -114,11 +98,11 @@ Setup the project locally - instructions are for _Linux_ or _macOS_ systems.
 
 ### Clone
 
-Optionally this to your own repo - either fork this repo or click [![Use this template](https://img.shields.io/badge/Use_this_template-green)](https://github.com/MichaelCurrin/themeless-jekyll-quickstart/generate).
+Optionally addd this to your own repos - either fork this repo or click this button to get a copy .[![Use this template](https://img.shields.io/badge/Use_this_template-2ea44f)](https://github.com/MichaelCurrin/themeless-jekyll-quickstart/generate).
 
 Then clone your repo or this one.
 
-Navigate to the repo root directory locally.
+Navigate to the repo's root directory locally.
 
 You can view commands in the [Makefile](/Makefile) or skip that and continue.
 
@@ -128,15 +112,11 @@ $ make help
 
 ### Install system dependencies
 
-Install [Jekyll](https://jekyllrb.com/) and [Bundler](https://bundler.io/) globally.
+Install Ruby and Bundler - see [instructions](https://gist.github.com/MichaelCurrin/fb758aea4d35e03b9ed093afddf4e7ec).
 
-```bash
-$ gem install --user-install jekyll bundler
-```
+### Install project packages
 
-### Install project dependencies
-
-Install gems. If run repeatedly, this command will **not** upgrade gems.
+Install gems for your project - including Jekyll.
 
 ```bash
 $ make install
