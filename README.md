@@ -131,12 +131,12 @@ Run this command in future to upgrade to the latest gems.
 $ make upgrade
 ```
 
-The [Gemfile.lock](/Gemfile.lock) file will be updated if there are any changes. You can commit this. That file is optional for GitHub Pages, but required if you want to deploy to Netlify.
+The `Gemfile.lock` file will be updated if there were any changes. You can commit this. That file is optional for GitHub Pages, but required if you want to deploy to Netlify.
 
 
 ## Run
 
-Build to the `_site` directory and start the web server.
+Build to the `_site` directory and start the Jekyll dev server.
 
 ### On subpath
 
@@ -149,7 +149,6 @@ $ make serve
 Open the browser at:
 
 - http://localhost:4000/static-pages-demo
-
 
 ### On root path
 
@@ -167,12 +166,12 @@ Open the browser at:
 When building site content to deploy to production, replace the default `'development'` value with `production`.
 
 ```bash
-$ make build-prod
+$ make build
 ```
 
 This will affect any checks in the files such as `if jekyll.environment == "production"`. This is useful for example to only show Google Analytics tag on Production site.
 
-Then copy the contents of *_site* directory to your server and serve with Apache or a similar web server.
+Then copy the contents of the `_site` directory to your server and then serve the static content. GitHub Pages and Netlify can do the build, copy, and serve steps for you all in the cloud. 
 
 
 ## Plugins
