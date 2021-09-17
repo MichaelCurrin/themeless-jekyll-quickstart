@@ -1,7 +1,9 @@
 default: install
 
+all: install build
+
 h help:
-	@egrep '^\S|^$$' Makefile
+	@grep '^[a-z]' Makefile
 
 
 install:
@@ -9,7 +11,7 @@ install:
 	bundle install
 
 
-# Serve on subpath, as on Github Pages project site.
+# Serve on subpath, as on GitHub Pages project site.
 s serve:
 	bundle exec jekyll serve --trace --livereload
 
@@ -19,4 +21,4 @@ r serve-root:
 
 
 build:
-	JEKYLL_ENV=production bundle exec jekyll build
+	JEKYLL_ENV=production bundle exec jekyll build --trace
