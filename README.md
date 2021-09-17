@@ -20,7 +20,7 @@ All the styling and assets are included in this repo. This gives you more contro
 
 <div align="center">
     <a href="(https://MichaelCurrin.github.io/themeless-jekyll-quickstart/">
-        <img src="/sample.png" alt="Sample screenshot" title="Sample screenshot" width="400" />
+        <img src="/sample.png" alt="Sample screenshot" title="Go to demo site" width="400" />
     </a>
 </div>
 
@@ -35,10 +35,10 @@ This project is based on following the [Jekyll Step-by-Step tutorial](https://je
 
 Note that this project has **no** theme. If you want to see use of a theme in a simple project, see these projects:
 
-- [michaelCurrin/jekyll-blog-demo](https://github.com/MichaelCurrin/jekyll-blog-demo)
+- [MichaelCurrin/jekyll-blog-demo](https://github.com/MichaelCurrin/jekyll-blog-demo)
 - [jekyll-themed-site-quickstart](https://github.com/MichaelCurrin/jekyll-themed-site-quickstart)
 
-This project demonstrates a few things in Jekyll, but the approaches are not necessarily best practice. See [minima](https://github.com/jekyll/minima) project for a good idea of how to setup a navbar, styling, JS, includes files and other pieces.
+This project demonstrates how to do a few things in Jekyll, but the approaches are not necessarily best practice. See [minima](https://github.com/jekyll/minima) project for a good idea of how to set up a navbar, styling, JS, includes files and other pieces which are more typical of Jekyll sites and easier to scale and maintain.
 
 ### Turn your HTML assets into a Jekyll project
 
@@ -90,14 +90,14 @@ Do this by setting up GitHub Pages section of the GitHub repo's _Settings_.
 
 This project is available at:
 
-- [michaelcurrin.github.io/themeless-jekyll-quickstart](https://michaelcurrin.github.io/themeless-jekyll-quickstart/)
+- [michaelcurrin.github.io/themeless-jekyll-quickstart](https://michaelcurrin.github.io/themeless-jekyll-quickstart/ "Go to demo site")
 
 Since this is a project page, the subpath of `themeless-jekyll-quickstart` is automatically set using the repo's name. In order to keep navigation and asset URLs in line with this and prevent errors, the `baseurl` in the [config](/_config.yml) file is also set to that subpath.
 
 
 ## Installation
 
-Setup the project locally - instructions are for _Linux_ or _macOS_ systems.
+Set up the project locally - instructions are for _Linux_ or _macOS_ systems.
 
 ### Clone
 
@@ -131,7 +131,7 @@ Run this command in future to upgrade to the latest gems.
 $ make upgrade
 ```
 
-The [Gemfile.lock](/Gemfile.lock) file will be updated if there are any changes. You can commit this. That file is optional for Github Pages but required if you want to deploy to Netlify.
+The [Gemfile.lock](/Gemfile.lock) file will be updated if there are any changes. You can commit this. That file is optional for GitHub Pages, but required if you want to deploy to Netlify.
 
 
 ## Run
